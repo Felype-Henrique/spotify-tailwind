@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <title>Document</title>
-</head>
-<body>
-    <h1 class="h-2 w-2 bg-slate-700">Teste</h1>
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="flex fixed bg-black w-full px-3 md:px-32 py-6">
+        <div class="container flex items-center mx-auto">
+          <div>
+            <a href="#">
+              <img
+                src="img/spotify-logo.png"
+                alt="Spotify"
+                class="w-20 md:w-145px"
+              />
+            </a>
+          </div>
+          <div class="flex justify-end flex-1 md:hidden text-white text-3xl">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="items-end flex-1 text-white font-bold hidden md:flex">
+            <nav class="flex-1">
+              <ul class="flex justify-end flex-1 ">
+                <li class="px-4">
+                  <a href="#" class="hover:text-hoverspt text-sm md:text-xl">Premium</a>
+                </li>
+                <li class="px-4">
+                  <a href="#" class="hover:text-hoverspt text-sm md:text-xl">Ajuda</a>
+                </li>
+                <li class="px-4">
+                  <a href="#" class="hover:text-hoverspt text-sm md:text-xl">Baixar</a>
+                </li>
+                <li class="px-4">
+                  <span class="border-r border-white"></span>
+                </li>
+                <li class="px-4">
+                  <a href="#" class="hover:text-hoverspt text-sm md:text-xl"
+                    >Inscrever-se</a
+                  >
+                </li>
+                <li class="px-4">
+                  <a href="#" class="hover:text-hoverspt text-sm md:text-xl">Entrar</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>

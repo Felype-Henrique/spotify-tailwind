@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       spacing:{
         '14' : '3.5rem',
-        '125px': '125px'
+        '145px': '145px',
       },
       colors: {
         'hoverspt': '#18D760',
@@ -24,7 +24,7 @@ module.exports = {
         'banner-mobile': 'top 25% center' 
       },
       fontSize: {
-        '9x1': '9rem',
+        '9xl': '9rem',
       },
     },
   },
