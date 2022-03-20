@@ -1,8 +1,8 @@
 # Spotify - Clone usando Tailwind
 
-![Spotify]()
+![Spotify](https://github.com/Felype-Henrique/spotify-tailwind/blob/main/src/img/readme/spotify.gif)
 
-![Spotify_mobile]()
+![Spotify_mobile](https://github.com/Felype-Henrique/spotify-tailwind/blob/main/src/img/readme/spotify_mobile.gif)
 
 # Sobre
 
